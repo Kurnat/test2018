@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,54 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <div id="wrapper">
+        <!-- ----------------------left side------------------- -->
+
+        <div class="left">
+            <form action="#" >
+                <label for="">
+                    <p>Login:</p>
+                    <input type="text" id="logInp" placeholder="Enter login">
+                </label>
+                <label for="">
+                    <p>Password:</p>
+                    <input type="password" id="passInp" placeholder="Enter password">
+                </label>
+                <label for="">
+                    <p>Email:</p>
+                    <input type="email" id="emInp" placeholder="Enter email">
+                </label><br>
+                <label for="">
+                    <input type="button" id="addUser" value="Add user">
+                </label>
+                <label for="">
+                        <input type="button" id="editUser" value="Edit user">
+                    </label>
+
+            </form>
+        </div>
+        <!-- ----------------------right side------------------- -->
+        <div class="right">
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Login</th>
+                        <th>Password</th>
+                        <th>Email</th>
+                        <th>Edit</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+ 
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
+
 </html>
