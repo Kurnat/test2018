@@ -16,6 +16,7 @@ function bottonStyle(id, shadow) {
 }
 bottonStyle('#addUser', '#8ed799')
 bottonStyle('#editUser', '#8ed799')
+
 //----------------------------------------------------------
 //AddUser batton {event.click} (create new element in the table)
 getSell('#addUser').onclick = function () {
